@@ -1,7 +1,7 @@
 For a better experience on reading this, open from: [Github](https://github.com/farlhmd/FinalMobileAutomationTesting)
 
 
-## Running Automation Test with Katalon Studio
+## Running Mobile Automation Test with Katalon Studio
 
 
 Clone this project
