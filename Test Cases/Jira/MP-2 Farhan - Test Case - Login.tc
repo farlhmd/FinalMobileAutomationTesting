@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Farhan - Test Case - Login
+Description: Flow search google</description>
+   <name>MP-2 Farhan - Test Case - Login</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10030&quot;:&quot;Feature: Search Google\n  Scenario: I want to using feature search on google\n    Given I Open browser\n    And Open website Google\n    And Located on google website\n    When I search \&quot;BDD Means\&quot;\n    Then Showing result related with \&quot;BDD Means\&quot;&quot;,&quot;customfield_10031&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00007:&quot;},&quot;status&quot;:{&quot;id&quot;:3,&quot;description&quot;:&quot;This issue is being actively worked on at the moment by the assignee.&quot;,&quot;iconUrl&quot;:&quot;https://timbelajar1.atlassian.net/images/icons/statuses/inprogress.png&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/status/3&quot;,&quot;name&quot;:&quot;In Progress&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;MP&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Mobile Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Farhan - Test Case - Login&quot;,&quot;description&quot;:&quot;Flow search google&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;m.farhanilhamdi@icloud.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Muhammad Farhan Ilhamdi&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/user?accountId\u003d62c4e83c9763a5e6026fbf30&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;m.farhanilhamdi@icloud.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Muhammad Farhan Ilhamdi&quot;,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/user?accountId\u003d62c4e83c9763a5e6026fbf30&quot;},&quot;priority&quot;:{&quot;id&quot;:1,&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/priority/1&quot;,&quot;name&quot;:&quot;Highest&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/issue/MP-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://timbelajar1.atlassian.net/rest/api/2/issue/10001&quot;,&quot;key&quot;:&quot;MP-2&quot;,&quot;id&quot;:10001}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>099e65e2-f978-4b17-8c3e-79dd53eedd2a</testCaseGuid>
+</TestCaseEntity>
