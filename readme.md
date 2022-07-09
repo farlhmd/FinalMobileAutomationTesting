@@ -1,5 +1,12 @@
 For a better experience on reading this, open from: [Github](https://github.com/farlhmd/FinalMobileAutomationTesting)
 
+# Final Project | Mobile Testing
+This project repository: [Final Project | Mobile](https://github.com/farlhmd/FinalMobileAutomationTesting)
+
+This automation tested an Android app: [Bank App]()
+
+Automated with: [Katalon Studio](https://katalon.com)
+
 
 ## Running Mobile Automation Test with Katalon Studio
 
