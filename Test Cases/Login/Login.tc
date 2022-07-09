@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9aff2ca5-75e4-4ae7-aacf-102877b2be06</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31e22df1-4e0e-434a-8b83-d1b80653e880</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ba1826c-4562-4e19-ac0e-6f8678d9c141</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>259fbc1e-f16f-4ec8-8212-d9df40b7aaff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'farlhmd'</defaultValue>
+      <description></description>
+      <id>31e22df1-4e0e-434a-8b83-d1b80653e880</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'farlhmd'</defaultValue>
+      <description></description>
+      <id>9ba1826c-4562-4e19-ac0e-6f8678d9c141</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Farhan'</defaultValue>
+      <description></description>
+      <id>259fbc1e-f16f-4ec8-8212-d9df40b7aaff</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+</TestCaseEntity>
