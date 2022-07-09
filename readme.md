@@ -22,14 +22,6 @@ This test is divided into xx Test Scope:
 
 
 For a better experience on reading this, open from: [Github](https://github.com/farlhmd/Assignment3MobileAutomationTesting)
-# Assignment 3 | Mobile Testing
-
-This project repository: [Assignment 3](https://github.com/farlhmd/Assignment3MobileAutomationTesting)
-
-
-This automation tested an Android-Based app: [E-Commerce App](https://github.com/farlhmd/Assignment3MobileAutomationTesting/blob/master/androidapp/ECommerce%20-SAMPLE-Android.apk)
-
-Automated with: [Katalon Studio](https://katalon.com)
 
 ## Requirements
 - Android device (virtual or real device)
