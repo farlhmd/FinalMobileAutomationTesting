@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add Payee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13f93961-162b-45a4-82f5-fd9874b60b3c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48c12b2a-5d44-450c-9e1c-41e71f2fec5e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Shopee'</defaultValue>
+      <description></description>
+      <id>48c12b2a-5d44-450c-9e1c-41e71f2fec5e</id>
+      <masked>false</masked>
+      <name>payeeName</name>
+   </variable>
+</TestCaseEntity>
