@@ -18,7 +18,7 @@
       <variableId>948a9b4e-4020-45ad-989d-bd29fb4b7b71</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Bakery'</defaultValue>
+      <defaultValue>'UniSwap'</defaultValue>
       <description></description>
       <id>3fecac8d-19d6-4de4-81d0-8ae501947513</id>
       <masked>false</masked>
