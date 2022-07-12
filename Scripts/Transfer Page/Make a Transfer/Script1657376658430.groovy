@@ -16,4 +16,45 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import io.appium.java_client.AppiumDriver as AppiumDriver
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+driver = MobileDriverFactory.getDriver()
+
+Mobile.comment('Wait until the burger button is visible')
+
+Mobile.waitForElementPresent(findTestObject('Top Menu/burgerBtn'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Top Menu/burgerBtn'), 0)
+
+Mobile.tap(findTestObject('Top Menu/burgerBtn'), 0)
+
+Mobile.comment('Wait until the side bar is visible')
+
+Mobile.waitForElementPresent(findTestObject('Side Menu/sideBtn - Make a Transfer'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Side Menu/sideBtn - Make a Transfer'), 0)
+
+Mobile.tap(findTestObject('Side Menu/sideBtn - Make a Transfer'), 0)
+
+Mobile.comment('Wait until the text edit Transfer Amount is visible')
+
+Mobile.waitForElementPresent(findTestObject('Transfer Page/editText - Transfer Amount'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Transfer Page/editText - Transfer Amount'), 0)
+
+Mobile.tap(findTestObject('Transfer Page/editText - Transfer Amount'), 0)
+
+Mobile.setText(findTestObject('Transfer Page/editText - Transfer Amount'), transferAmount, 0)
+
+Mobile.comment('Wait until the text edit Initial Balance is visible')
+
+Mobile.waitForElementPresent(findTestObject('Transfer Page/btn - Confirm Transfer'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Transfer Page/btn - Confirm Transfer'), 0)
+
+Mobile.tap(findTestObject('Transfer Page/btn - Confirm Transfer'), 0)
+
+driver.terminateApp(GlobalVariable.bundleId)
 

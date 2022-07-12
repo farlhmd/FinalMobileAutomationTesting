@@ -85,14 +85,14 @@ Mobile.pressBack()
 
 Mobile.tap(findTestObject('Register Page/btn - Create Profile'), 0)
 
-def toast = driver.findElementByXPath("//android.widget.Toast[@text='A User has already taken that username']")
-println("Toast element: " + toast)
-if (toast == null) {
-	Mobile.comment("New User Registration Success")
-} else {
-	Mobile.comment("Username Already Registered")
-		Mobile.pressBack()
-}
+//def toast = driver.findElementByXPath("//android.widget.Toast[@text='A User has already taken that username']")
+//println("Toast element: " + toast)
+//if (toast == null) {
+//	Mobile.comment("New User Registration Success")
+//} else {
+//	Mobile.comment("Username Already Registered")
+//		Mobile.pressBack()
+//}
 
 driver.terminateApp(GlobalVariable.bundleId)
 
