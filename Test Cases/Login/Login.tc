@@ -24,7 +24,7 @@
       <variableId>259fbc1e-f16f-4ec8-8212-d9df40b7aaff</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'farlhmd'</defaultValue>
+      <defaultValue>'2'</defaultValue>
       <description></description>
       <id>31e22df1-4e0e-434a-8b83-d1b80653e880</id>
       <masked>false</masked>
