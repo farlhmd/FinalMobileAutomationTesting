@@ -21,7 +21,7 @@ Open Katalon Studio, then point to folder that you already clone
 This test is divided into xx Test Scope:
 
 
-For a better experience on reading this, open from: [Github](https://github.com/farlhmd/Assignment3MobileAutomationTesting)
+For a better experience on reading this, open from: [Github](https://github.com/farlhmd/FinalMobileAutomationTesting)
 
 ## Requirements
 - Android device (virtual or real device)
