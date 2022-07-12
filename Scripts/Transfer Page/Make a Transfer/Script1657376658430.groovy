@@ -16,9 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 import io.appium.java_client.AppiumDriver as AppiumDriver
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+
+Mobile.startExistingApplication(GlobalVariable.bundleId, FailureHandling.STOP_ON_FAILURE)
 
 driver = MobileDriverFactory.getDriver()
 
@@ -55,6 +57,13 @@ Mobile.waitForElementPresent(findTestObject('Transfer Page/btn - Confirm Transfe
 Mobile.verifyElementVisible(findTestObject('Transfer Page/btn - Confirm Transfer'), 0)
 
 Mobile.tap(findTestObject('Transfer Page/btn - Confirm Transfer'), 0)
+// Added toast handling
+
+def toast = driver.findElementByXPath("//android.widget.Toast[@text='Transfer of \$1.00 successfully made']")
+println("Toast element: " + toast)
+if (toast == null) {
+	Mobile.comment("Error creating a transfer")
+}
 
 driver.terminateApp(GlobalVariable.bundleId)
 
