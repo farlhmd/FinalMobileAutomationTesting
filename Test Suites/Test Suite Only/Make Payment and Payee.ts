@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Make Payment and Payee</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>8fa03a20-c948-4af7-9e9b-c3d0c7fae737</testSuiteGuid>
+   <testCaseLink>
+      <guid>be31f08c-621f-4500-9934-08319c158e82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>31e22df1-4e0e-434a-8b83-d1b80653e880</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ba1826c-4562-4e19-ac0e-6f8678d9c141</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>259fbc1e-f16f-4ec8-8212-d9df40b7aaff</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>46d623a8-f05c-480a-9267-8e30ad01eb2a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Payment Page/add Payee</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48c12b2a-5d44-450c-9e1c-41e71f2fec5e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>55c19546-e9e0-4577-b027-e76f5eb88cc0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Payment Page/Make a Payment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8a28969c-9851-4dc2-bb92-1648af0cd47e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
