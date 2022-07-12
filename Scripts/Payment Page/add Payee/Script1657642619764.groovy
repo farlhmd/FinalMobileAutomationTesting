@@ -40,32 +40,32 @@ Mobile.verifyElementVisible(findTestObject('Side Menu/sideBtn - Make a Payment')
 
 Mobile.tap(findTestObject('Side Menu/sideBtn - Make a Payment'), 0)
 
-Mobile.comment('Wait until the text edit payment Amount is visible')
+Mobile.comment('Wait until the add button is visible')
 
-Mobile.waitForElementPresent(findTestObject('Payment Page/editText - Amount'), 0)
+Mobile.waitForElementPresent(findTestObject('Payment Page/addButton'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Payment Page/editText - Amount'), 0)
+Mobile.verifyElementVisible(findTestObject('Payment Page/addButton'), 0)
 
-Mobile.tap(findTestObject('Payment Page/editText - Amount'), 0)
+Mobile.tap(findTestObject('Payment Page/addButton'), 0)
 
-Mobile.setText(findTestObject('Payment Page/editText - Amount'), paymentAmount, 0)
+Mobile.comment('Wait until the text edit is visible')
 
-Mobile.comment('Wait until the button is visible')
+Mobile.waitForElementPresent(findTestObject('Payment Page/Add Payee Frame Layout/editText - Payee Name'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Payment Page/btn - Make Payment'), 0)
+Mobile.verifyElementVisible(findTestObject('Payment Page/Add Payee Frame Layout/editText - Payee Name'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Payment Page/btn - Make Payment'), 0)
+Mobile.tap(findTestObject('Payment Page/Add Payee Frame Layout/editText - Payee Name'), 0)
 
-Mobile.tap(findTestObject('Payment Page/btn - Make Payment'), 0)
+Mobile.setText(findTestObject('Payment Page/Add Payee Frame Layout/editText - Payee Name'), payeeName, 0)
+
+Mobile.tap(findTestObject('Payment Page/Add Payee Frame Layout/btn - ADD'), 0)
 
 // Added toast handling
-def toast = driver.findElementByXPath('//android.widget.Toast[@text=\'Payment of $1.00 successfully made\']')
+def toast = driver.findElementByXPath('//android.widget.Toast[@text=\'Payee Added Successfully\']')
 
 println('Toast element: ' + toast)
 
 if (toast == null) {
-    Mobile.comment('Error creating a payment')
+	Mobile.comment('Error creating a payee')
 }
-
-//driver.terminateApp(GlobalVariable.bundleId)
 
