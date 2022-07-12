@@ -20,6 +20,8 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.AppiumDriver as AppiumDriver
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+Mobile.startExistingApplication(GlobalVariable.bundleId, FailureHandling.STOP_ON_FAILURE)
+
 driver = MobileDriverFactory.getDriver()
 
 Mobile.comment('Wait until the burger button is visible')
@@ -71,4 +73,11 @@ Mobile.setText(findTestObject('Accounts Page/Add an Account FrameLayout/editText
 
 Mobile.tap(findTestObject('Accounts Page/Add an Account FrameLayout/btn - ADD'), 0)
 
-driver.terminateApp(GlobalVariable.bundleId)
+// Added toast handling
+def toast = driver.findElementByXPath("//android.widget.Toast[@text='Account successfully added']")
+println("Toast element: " + toast)
+if (toast == null) {
+	Mobile.comment("Error creating account")
+}
+//driver.terminateApp(GlobalVariable.bundleId)
+
