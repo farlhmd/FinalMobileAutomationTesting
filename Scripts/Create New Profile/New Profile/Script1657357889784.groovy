@@ -63,7 +63,7 @@ Mobile.verifyElementVisible(findTestObject('Register Page/editText - Username'),
 
 Mobile.tap(findTestObject('Register Page/editText - Username'), 0)
 
-Mobile.setText(findTestObject('Register Page/editText - Username'), username, 0)
+Mobile.setText(findTestObject('Register Page/editText - Username'), "2", 0)
 
 Mobile.comment('Verify if there is Edit Text Password')
 
