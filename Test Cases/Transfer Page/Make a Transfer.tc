@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make a Transfer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9cf0cfc7-a8dd-47f0-a048-2fd3f3d466a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d99c6773-9e28-44b5-8ba5-213f72cf4a74</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>d99c6773-9e28-44b5-8ba5-213f72cf4a74</id>
+      <masked>false</masked>
+      <name>transferAmount</name>
+   </variable>
+</TestCaseEntity>
