@@ -39,7 +39,7 @@ for a detailed explanation, read from: [Google Spreadsheet](https://docs.google.
 5. Enjoy other TS and TS Collection! 💪😌
 
 
-### Other Automation Test Projects
+## Other Automation Test Projects
 Feeling lost? Don't forget to checkout another projects of mine:
 - [Final Project API](https://github.com/farlhmd/FinalAPIAutomationTesting)
 - [Final Project Web](https://github.com/farlhmd/FinalWebAutomationTesting)
