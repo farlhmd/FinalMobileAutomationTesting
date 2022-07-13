@@ -9,6 +9,7 @@ Automated with: [Katalon Studio](https://katalon.com)
 
 ### Test(s)
 for a detailed test plan, read from: [Google Docs](https://docs.google.com/document/d/1ql0SNz6XIMVqX_p9tzgkrdc2HZDI17Dq/edit?usp=sharing&ouid=118019274039622151168&rtpof=true&sd=true)
+
 This test is divided into 6 Test:
 - Register a Profile (DDT Based)
 - Login
