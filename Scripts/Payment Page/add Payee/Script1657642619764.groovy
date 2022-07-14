@@ -34,36 +34,38 @@ Mobile.tap(findTestObject('Top Menu/burgerBtn'), 0)
 
 Mobile.comment('Wait until the side bar is visible')
 
-Mobile.waitForElementPresent(findTestObject('Side Menu/sideBtn - Make a Transfer'), 0)
+Mobile.waitForElementPresent(findTestObject('Side Menu/sideBtn - Make a Payment'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Side Menu/sideBtn - Make a Transfer'), 0)
+Mobile.verifyElementVisible(findTestObject('Side Menu/sideBtn - Make a Payment'), 0)
 
-Mobile.tap(findTestObject('Side Menu/sideBtn - Make a Transfer'), 0)
+Mobile.tap(findTestObject('Side Menu/sideBtn - Make a Payment'), 0)
 
-Mobile.comment('Wait until the text edit Transfer Amount is visible')
+Mobile.comment('Wait until the add button is visible')
 
-Mobile.waitForElementPresent(findTestObject('Transfer Page/editText - Transfer Amount'), 0)
+Mobile.waitForElementPresent(findTestObject('Payment Page/addButton'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Transfer Page/editText - Transfer Amount'), 0)
+Mobile.verifyElementVisible(findTestObject('Payment Page/addButton'), 0)
 
-Mobile.tap(findTestObject('Transfer Page/editText - Transfer Amount'), 0)
+Mobile.tap(findTestObject('Payment Page/addButton'), 0)
 
-Mobile.setText(findTestObject('Transfer Page/editText - Transfer Amount'), transferAmount, 0)
+Mobile.comment('Wait until the text edit is visible')
 
-Mobile.comment('Wait until the text edit Initial Balance is visible')
+Mobile.waitForElementPresent(findTestObject('Payment Page/Add Payee Frame Layout/editText - Payee Name'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Transfer Page/btn - Confirm Transfer'), 0)
+Mobile.verifyElementVisible(findTestObject('Payment Page/Add Payee Frame Layout/editText - Payee Name'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Transfer Page/btn - Confirm Transfer'), 0)
+Mobile.tap(findTestObject('Payment Page/Add Payee Frame Layout/editText - Payee Name'), 0)
 
-Mobile.tap(findTestObject('Transfer Page/btn - Confirm Transfer'), 0)
+Mobile.setText(findTestObject('Payment Page/Add Payee Frame Layout/editText - Payee Name'), payeeName, 0)
+
+Mobile.tap(findTestObject('Payment Page/Add Payee Frame Layout/btn - ADD'), 0)
+
 // Added toast handling
+def toast = driver.findElementByXPath('//android.widget.Toast[@text=\'Payee Added Successfully\']')
 
-def toast = driver.findElementByXPath("//android.widget.Toast[@text='Transfer of \$1.00 successfully made']")
-println("Toast element: " + toast)
+println('Toast element: ' + toast)
+
 if (toast == null) {
-	Mobile.comment("Error creating a transfer")
+	Mobile.comment('Error creating a payee')
 }
-
-driver.terminateApp(GlobalVariable.bundleId)
 

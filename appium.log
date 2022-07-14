@@ -241,3 +241,4 @@
 [35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
 [35m[Appium][39m Removing session 'dbc04134-b599-4908-9a70-700c175ebc49' from our master session list
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[Appium][39m Received SIGTERM - shutting down

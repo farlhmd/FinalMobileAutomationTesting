@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Start Application</name>
+   <name>Logout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f9e903f8-20a0-4963-bf83-7b8914ed705a</testCaseGuid>
+   <testCaseGuid>e58c0a57-56ea-4a8e-983c-6742746d4a67</testCaseGuid>
 </TestCaseEntity>
